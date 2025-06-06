@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-        "check": "tsc"
+        "check": "tsc",
+        "gh-pages": "pnpm --filter @repo/pages run build"
     },
     "devDependencies": {
         "@types/node": "^22.15.30",
