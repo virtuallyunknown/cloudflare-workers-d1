@@ -1,0 +1,18 @@
+{
+    "name": "cloudflare-workers-d1",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "check": "tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^22.15.30",
+        "@virtuallyunknown/esbuild": "^0.3.0",
+        "@virtuallyunknown/eslint-config": "^0.3.0",
+        "@virtuallyunknown/tsconfig": "^0.3.0",
+        "chokidar": "^4.0.3",
+        "eslint": "^9.28.0",
+        "execa": "^9.6.0",
+        "typescript": "^5.8.3"
+    }
+}

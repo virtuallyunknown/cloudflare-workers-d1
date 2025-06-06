@@ -1,0 +1,8 @@
+{
+    "extends": ["@virtuallyunknown/tsconfig/tsconfig.node.json"],
+    "compilerOptions": {
+        "types": ["./worker-configuration.d.ts"]
+    },
+    "include": ["./src/", "./worker-configuration.d.ts"],
+    "exclude": ["**/node_modules", "**/.*/"]
+}

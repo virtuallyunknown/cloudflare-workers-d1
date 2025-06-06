@@ -1,0 +1,17 @@
+{
+    "name": "@cloudflare-workers-d1/pages",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "node build.js",
+        "check": "tsc"
+    },
+    "dependencies": {
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.6",
+        "@types/react-dom": "^19.1.6"
+    }
+}
