@@ -10,7 +10,7 @@ async function build() {
         buildReact({
             entryPoints: ['src/index.tsx'],
             outdir: 'dist',
-            env: 'prod',
+            env: 'dev',
         }),
     ]);
 }
