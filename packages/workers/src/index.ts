@@ -13,7 +13,7 @@
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
-		return new Response('{ "hello": "world" }', {
+		return new Response('{ "greetings": "world" }', {
 			headers: {
 				'Content-Type': 'application/json',
 				'Cache-Control': 'no-cache',
